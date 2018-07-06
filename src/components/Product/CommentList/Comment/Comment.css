@@ -1,0 +1,6 @@
+.comment {
+  padding: 20px 0 20px;
+  color: #616f88;
+  border-bottom: 1px dashed #D4D4E3; }
+  .comment:last-child {
+    border: 0; }

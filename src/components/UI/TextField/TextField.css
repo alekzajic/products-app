@@ -1,0 +1,11 @@
+.input-field {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #D4D4E3;
+  box-shadow: 0;
+  color: #120F62;
+  margin-bottom: 20px; }
+  .input-field:active, .input-field:focus {
+    outline: none; }

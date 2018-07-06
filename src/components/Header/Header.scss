@@ -1,0 +1,41 @@
+@import 'scss/variables.scss';
+
+.header {
+    background-color: $brand-blue;
+    color: $brand-white;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    box-shadow: 0px 2px 0px darken($brand-blue, 10%);
+    color: $brand-beige;
+  }
+  
+.header__logo {
+    padding: 20px;
+}
+
+.header__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.header__title-link {
+    color: $brand-white;
+    text-decoration: none;
+}
+
+.header__nav {
+    margin-left: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: $brand-white;
+    position: relative;
+    bottom: -2px;
+}

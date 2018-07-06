@@ -1,0 +1,17 @@
+@import 'scss/variables';
+
+.button {
+    padding: 10px 20px;
+    min-width: 200px;
+    background: $brand-gray;
+    color: $brand-white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+}
+
+.button--primary {
+    background: $brand-red;
+}

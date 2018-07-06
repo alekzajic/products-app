@@ -1,0 +1,13 @@
+.button {
+  padding: 10px 20px;
+  min-width: 200px;
+  background: #B5B5CF;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  border-radius: 5px; }
+
+.button--primary {
+  background: #FC3A66; }

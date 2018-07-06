@@ -1,0 +1,33 @@
+.header {
+  background-color: #2226CB;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  box-shadow: 0px 2px 0px #1b1e9f;
+  color: peru; }
+
+.header__logo {
+  padding: 20px; }
+
+.header__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0; }
+
+.header__title-link {
+  color: #ffffff;
+  text-decoration: none; }
+
+.header__nav {
+  margin-left: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: row; }
+
+.header__nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  bottom: -2px; }

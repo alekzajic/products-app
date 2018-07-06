@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { STATUS } from '../../contexts/ProductsContext';
 import CommentList from './CommentList';
 import './Product.css'
+import Loader from '../UI/Loader';
 
 class Product extends Component {
 
@@ -83,7 +84,7 @@ class Product extends Component {
     render() {
         
         if (!this.state.isFetched) {
-            return <div>Loading...</div>;
+            return <Loader />;
         }
         
         return (

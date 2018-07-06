@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 import { STATUS } from '../../contexts/ProductsContext';
 import ProductCard from './ProductCard';
+import Loader from '../UI/Loader';
 
 class ProductList extends Component {
     static propTypes = {
@@ -16,7 +17,7 @@ class ProductList extends Component {
     
     render() {
         if (this.props.status === STATUS.FETCHING) {
-            return <div className='loader'>loading...</div>
+            return <Loader />
         }
 
         let productCards = this.props.products.map((product) => {

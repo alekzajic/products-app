@@ -16,4 +16,6 @@ body {
   overflow-y: auto; }
 
 .app__content {
-  padding: 20px; }
+  padding: 20px;
+  position: relative;
+  height: calc(100vh - 52px); }

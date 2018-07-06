@@ -24,4 +24,6 @@ body {
 
 .app__content {
   padding: 20px;
+  position: relative;
+  height: calc(100vh - 52px);
 }
